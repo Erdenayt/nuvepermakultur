@@ -1,0 +1,348 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+
+    font-size: 7px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    background-color: #91B026;
+    color: #fff;
+}
+
+h1 {
+    padding: 12rem;
+    padding-bottom: 0;
+
+}
+
+p {
+    padding: 1.6rem 0;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+
+}
+
+ul {
+
+    list-style: none;
+}
+
+header {
+
+    height: 46rem;
+    color: #fff;
+
+}
+
+header h1{
+font-size: 2.8rem;
+
+}
+
+.col {
+    height: 48rem;
+}
+
+
+
+
+header #logo-img {
+    position: absolute;
+    z-index: -1;
+    width: 9rem;
+    height: auto;
+    clip-path: circle(50% at 50% 50%);
+    top:2rem;
+    left:42%;
+
+
+}
+
+header .bg-image {
+    position: absolute;
+    background-image: url(images/cesmeli/cesmeli2.jpg);
+    background-size: cover;
+    background-position: 40% 60%;
+    height: 46rem;
+    width: 100%;
+    opacity: 1;
+    z-index: -1;
+
+}
+
+.btn {
+    display: inline-block;
+    background-color: #91B026;
+    color: #fff;
+    border: 1px solid black;
+    padding: 1.6rem 3.2rem;
+    margin: .5rem 0;
+    transition: all 0.5s;
+
+}
+
+.song {
+    background-color: #f1f3f4;
+    border: 2px solid black;
+    padding: 1.6rem 3.2rem;
+    margin: .5rem 0;
+    width: 29.5rem;
+    height: 6rem;
+
+
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #91B026;
+
+}
+
+#section-a {
+    background-color: #91B026;
+    color: #000;
+    padding: 3.2rem 12rem;
+
+}
+
+#section-a .content {
+    background: antiquewhite;
+    padding: 2rem;
+    text-align: justify;
+
+}
+
+#section-a h2 {
+    text-align: center;
+}
+
+
+
+
+#section-b {
+    padding: 2rem 12rem;
+
+}
+
+#section-b li {
+    background: antiquewhite;
+    color: #000;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+    padding-bottom: 7rem;
+}
+
+#section-b li img {
+    height: 40rem;
+    width: 60rem;
+    object-fit: cover;
+
+}
+
+.col-content {
+    padding: 1.5rem;
+
+}
+
+.col-content-p {
+
+    text-align: justify;
+}
+
+.content-link {
+    text-decoration: none;
+    color: #91B026;
+
+}
+
+#section-c {
+    background-color: #91B026;
+    color: #000;
+    padding: 3rem 12rem;
+}
+
+#section-c .content {
+    background-color: antiquewhite;
+    padding: 3rem;
+
+}
+
+#section-d {
+    background: #91B026;
+    padding: 5rem 10rem;
+}
+
+#section-d .box {
+
+    height: 50rem;
+
+
+
+}
+
+
+#section-d a {
+    color: #fff;
+}
+
+#section-f {
+
+    text-align: justify;
+    background-color: #91B026;
+    color: #000;
+    padding: 1rem 10rem;
+
+}
+
+#section-f .content {
+
+    padding: 2rem 2rem;
+    background-color: antiquewhite;
+    margin: 2rem;
+
+}
+
+#section-f h2 {
+    text-align: center;
+
+}
+
+
+#section-d .box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    padding: 2rem;
+
+}
+
+#anka {
+
+    object-position: 80% 20%;
+}
+
+#tavuk {
+
+   object-fit: cover;
+}
+
+#sebze {
+    object-position: 90% 10%;
+}
+
+#boncuk {
+    object-position: 100% 40%;
+    object-fit: none;
+
+}
+
+footer {
+    padding: 4rem;
+    background: black;
+    color: #fff;
+}
+
+footer a {
+    color: yellowgreen;
+
+}
+
+@media screen and (min-width:800px) {
+    html {
+        font-size: 9px;
+    }
+
+
+header #logo-img {
+    
+    left:46%;
+
+}
+
+
+
+}
+
+
+#section-b li {
+
+    padding-bottom: 14rem;
+}
+
+#section-b ul {
+    padding: 0 5rem;
+
+}
+
+@media screen and (min-width:1200px) {
+
+    html {
+        font-size: 11px;
+
+    }
+
+    #section-b li {
+        width: 28%;
+        margin: 1%;
+        display: inline-block;
+
+
+    }
+
+
+
+
+    .box {
+        width: 50%;
+        float: left;
+
+
+    }
+
+    #section-d .box {
+        padding-right: 2rem;
+    }
+
+
+    #section-b {
+        padding: 0 2rem;
+
+    }
+
+    #section-b ul {
+        padding: 0 0;
+
+    }
+
+
+
+    #section-d {
+
+        padding-right: 8rem;
+    }
+
+}
